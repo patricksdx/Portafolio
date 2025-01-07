@@ -1,13 +1,22 @@
 <!doctype html>
 <html lang="es">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Patrick Durand</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Patrick Durand</title>
+
+    <meta property="og:title" content="Portafolio de Patrick Durand" />
+    <meta
+      property="og:description"
+      content="Descubre mis proyectos de desarrollo web y diseño."
+    />
+    <meta property="og:url" content="https://patrick-portafolio.netlify.app/" />
+    <meta property="og:image" content="URL_de_tu_imagen_destacada" />
+	
+  </head>
+  <body>
+    <slot />
+  </body>
 </html>
