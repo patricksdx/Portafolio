@@ -1,10 +1,15 @@
 ---
 import astroLogo from '../assets/astro.svg';
+import ThreeScene from '../components/ThreeScene.jsx';
 ---
 
 
 <div id="container">
-	<h1 class="text-blue-950">Portafolio de Patrick Durand - Desarrollo Web y Diseño</h1>
-	<h2 class="text-blue-950">Explora el portafolio de Patrick Durand, desarrollador web especializado en diseño moderno y eficiente</h2>
+	<h1 class="text-blue-950">Portafolio de Patrick Durand</h1>
+	<h2 class="text-blue-950">Explora el portafolio de Patrick Durand</h2>
 	<img src={astroLogo.src} alt="" srcset="">
+</div>
+
+<div class="w-full h-80 m-auto">
+	<ThreeScene   client:load />
 </div>
